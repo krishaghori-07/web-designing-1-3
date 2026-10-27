@@ -1,0 +1,29 @@
+*{
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+h2{
+    font-family:sans-serif;
+    color:#4A2C2A;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3c2f3c;
+    text-align: justify;
+}
+body{
+    background-color:#FDF6E3;
+}
+section{
+    display:flex;
+    flex-wrap: wrap;
+}
+@media(min-width:320px) and (max-width:480px){
+    article{
+        margin:10px 10px;
+        width:calc(100vw-20px);
+        border:1px solid #4A2C2A;
+    }
+}
